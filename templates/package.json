@@ -1,0 +1,19 @@
+{
+  "name": "{{projectName}}",
+  "version": "{{projectVersion}}",
+  "scripts": {
+    "postinstall": "npm dedupe",
+    "test": "mocha",
+    "deploy": "gimp deploy",
+    "logs": "gimp logs"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^7.4.1",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "webfunc": "^0.4.0-alpha.0"
+  },
+  "devDependencies": {
+    "gimpy": "^0.1.0-alpha.2"
+  }
+}
